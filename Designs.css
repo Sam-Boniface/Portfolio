@@ -1,0 +1,893 @@
+/*
+Description: Profile Settings
+Author: Sam Boniface
+Version: 1.0
+*/
+
+/* Phone (portrait) */
+@media screen and (min-width:300px) and (max-width:415px) and (orientation:portrait){
+	blockquote {
+		padding: 0% 1% 2% 1%;
+		margin-top: -1%;
+		font-size: 3vw;
+		font-style: italic;
+	}
+	
+	div.inset {
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		margin: auto;
+		width: 90%;
+		height: 95%;
+		z-index: 3;
+		font-size: 3vw;
+		line-height: 3.5vw;
+	}
+	
+	main aside.holder a.visit-overlay {
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		margin: auto;
+		width: 100%;
+		height: 100%;
+		z-index: 5;
+	}
+	
+	main aside.holder a.web-link {
+		width: 100%;
+		height: 100%;
+		z-index: 4;
+	}
+	
+	main aside.holder a.web-link img.website-logos {
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		margin: auto;
+		width: 90%;
+		height: auto;
+	}
+	
+	main aside.holder div.placeholder {
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		margin: auto;
+		width: 90%;
+		height: 10%;
+		text-align: center;
+		font-size: 4vw;
+		color: white;
+		z-index: 5;
+	}
+	
+	main aside.holder img.game-logos {
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		margin: auto;
+		height: auto;
+		width: 90%;
+		z-index: 4;
+	}
+	
+	main aside.doc-tab-button {
+		position: relative;
+		display: inline-block;
+		top: 5%;
+		left: 2%;
+		width: 25%;
+		height: 0;
+		color: black;
+		border-bottom: 5vw solid grey;
+		border-left: 0.8vw solid transparent;
+		border-right: 0.8vw solid transparent;
+		font-size: 3vw;
+		line-height: 150%;
+		text-align: center;
+		font-weight: bold;
+		z-index: 4;
+	}
+	
+	main div.doc-tab-area {
+		position: absolute;
+		display: none;
+		border-top: 2px solid white;
+		top: 20.5%;
+		left: 1%;
+		height: 190%;
+		width: 90%;
+		margin: 1%;
+		overflow-x: auto;
+		z-index: 5;
+		background-color: white;
+	}
+	
+	main div.doc-tab-area a.document-link  {
+		display: block;
+		font-size: 3vw;
+		font-weight: bold;
+		margin-left: 5%;
+		line-height: 5vw;
+	}
+	
+	main aside.tab-button {
+		position: relative;
+		display: inline-block;
+		top: 0.5%;
+		left: 2%;
+		width: 20%;
+		height: 0;
+		color: black;
+		border-bottom: 6vw solid grey;
+		border-left: 0.8vw solid transparent;
+		border-right: 0.8vw solid transparent;
+		text-align: center;
+		font-weight: bold;
+		z-index: 4;
+	}
+	
+	
+	main aside.tab-front {
+		border-bottom: 6vw solid white;
+	}
+	
+	main div.tab-area {
+		position: absolute;
+		display: none;
+		border: 2px solid white;
+		top: 4%;
+		left: 1%;
+		height: 89%;
+		width: 94%;
+		margin: 1%;
+		overflow-x: auto;
+		z-index: 5;
+		background-color: rgba(255,255,255,0.5);
+		box-shadow: 0 0 10px grey inset;
+	}
+	
+	main div.tab-show {
+		display: block;
+	}
+	
+	main div.tab-area img.graphic-img {
+		position: relative;
+		display: inline-block;
+		max-height: 20%;
+		max-width: 60%;
+		margin: 0.5%;
+		background-color: black;
+		border: 2px solid white;
+		box-shadow: 0 0 10px white;
+		padding: 1%;
+	}
+}
+
+/* Phone (landscape) */
+@media screen and (min-width:568px) and (max-width:737px) and (orientation:landscape){
+	blockquote {
+		padding: 0% 1% 2% 1%;
+		margin-top: -1%;
+		font-size: 2vw;
+		font-style: italic;
+	}
+	
+	div.inset {
+		position: absolute;
+		top: 2vw;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		margin: auto;
+		width: 95%;
+		height: auto;
+		z-index: 3;
+		line-height: 2.2vw;
+	}
+	
+	div.inset h2 {
+		top: 1vw;
+		font-size: 2vw;
+		line-height: 2vw;
+	}
+	
+	div.inset h3 {
+		font-size: 2vw;
+	}
+	
+	main aside.holder a.visit-overlay {
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		margin: auto;
+		width: 100%;
+		height: 100%;
+		z-index: 5;
+	}
+	
+	main aside.holder a.web-link {
+		width: 100%;
+		height: 100%;
+		z-index: 4;
+	}
+	
+	main aside.holder a.web-link img.website-logos {
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		margin: auto;
+		height: 80%;
+		width: auto;
+	}
+	
+	main aside.holder div.placeholder {
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		margin: auto;
+		width: 50%;
+		height: 10%;
+		text-align: center;
+		font-size: 1.5vw;
+		color: white;
+		z-index: 5;
+	}
+	
+	main aside.holder img.game-logos {
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		margin: auto;
+		height: auto;
+		width: 95%;
+		z-index: 4;
+	}
+	
+	main aside.doc-tab-button {
+		position: relative;
+		display: inline-block;
+		top: 0vw;
+		left: 2%;
+		width: 21%;
+		height: 0;
+		color: black;
+		border-bottom: 1.9vw solid grey;
+		border-left: 0.8vw solid transparent;
+		border-right: 0.8vw solid transparent;
+		font-size: 1.4vw;
+		line-height: 150%;
+		text-align: center;
+		font-weight: bold;
+		z-index: 4;
+	}
+	
+	main div.doc-tab-area {
+		position: absolute;
+		display: none;
+		border-top: 2px solid white;
+		top: 4.2vw;
+		left: 1%;
+		height: 90%;
+		width: 100%;
+		margin: 1%;
+		overflow-x: auto;
+		z-index: 5;
+		background-color: white;
+	}
+	
+	main div.doc-tab-area a.document-link  {
+		display: block;
+		font-size: 1.4vw;
+		font-weight: bold;
+		margin-left: 5%;
+		line-height: 1.9vw;
+	}
+	
+	main aside.tab-button {
+		position: relative;
+		display: inline-block;
+		top: 0%;
+		left: 2%;
+		width: 10%;
+		height: 0;
+		color: black;
+		font-size: 1.5vw;
+		border-bottom: 1.8vw solid grey;
+		border-left: 0.8vw solid transparent;
+		border-right: 0.8vw solid transparent;
+		text-align: center;
+		font-weight: bold;
+		z-index: 4;
+	}
+	
+	main aside.tab-button:hover {
+		cursor: pointer;
+	}
+	
+	main aside.tab-front {
+		border-bottom: 1.9vw solid white;
+	}
+	
+	main aside.tab-front:hover {
+		cursor: pointer;
+	}
+	
+	main div.tab-area {
+		position: absolute;
+		display: none;
+		border: 2px solid white;
+		top: 3.9%;
+		left: 1%;
+		height: 89%;
+		width: 96%;
+		margin: 1%;
+		overflow-x: auto;
+		z-index: 5;
+		background-color: rgba(255,255,255,0.5);
+		box-shadow: 0 0 10px grey inset;
+	}
+	
+	main div.tab-show {
+		display: block;
+	}
+	
+	main div.tab-area img.graphic-img {
+		position: relative;
+		display: inline-block;
+		max-height: 30%;
+		max-width: 30%;
+		width: auto;
+		margin: 0.5%;
+		background-color: black;
+		border: 2px solid white;
+		box-shadow: 0 0 10px white;
+		padding: 1%;
+	}
+}
+
+/* Tablet (portrait) */
+@media screen and (min-width:600px) and (max-width:800px) and (orientation:portrait){
+	blockquote {
+		padding: 0% 1% 2% 1%;
+		margin-top: -1%;
+		font-size: 2.5vw;
+		font-style: italic;
+	}
+	
+	div.inset {
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		margin: auto;
+		width: 90%;
+		height: 95%;
+		z-index: 3;
+		font-size: 2.5vw;
+		line-height: 2.7vw;
+	}
+	
+	main aside.holder a.visit-overlay {
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		margin: auto;
+		width: 100%;
+		height: 100%;
+		z-index: 5;
+	}
+	
+	main aside.holder a.web-link {
+		width: 100%;
+		height: 100%;
+		z-index: 4;
+	}
+	
+	main aside.holder a.web-link img.website-logos {
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		margin: auto;
+		width: 95%;
+		height: auto;
+	}
+	
+	main aside.holder div.placeholder {
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		margin: auto;
+		width: 90%;
+		height: 10%;
+		text-align: center;
+		font-size: 4vw;
+		color: white;
+		z-index: 5;
+	}
+	
+	main aside.holder img.game-logos {
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		margin: auto;
+		height: auto;
+		width: 90%;
+		z-index: 4;
+	}
+	
+	main aside.doc-tab-button {
+		position: relative;
+		display: inline-block;
+		top: 5%;
+		left: 2%;
+		width: 25%;
+		height: 0;
+		color: black;
+		border-bottom: 5vw solid grey;
+		border-left: 0.8vw solid transparent;
+		border-right: 0.8vw solid transparent;
+		font-size: 3vw;
+		line-height: 150%;
+		text-align: center;
+		font-weight: bold;
+		z-index: 4;
+	}
+	
+	main div.doc-tab-area {
+		position: absolute;
+		display: none;
+		border-top: 2px solid white;
+		top: 17%;
+		left: 1%;
+		height: 100%;
+		width: 90%;
+		margin: 1%;
+		overflow-x: auto;
+		z-index: 5;
+		background-color: white;
+	}
+	
+	main div.doc-tab-area a.document-link  {
+		display: block;
+		font-size: 3vw;
+		font-weight: bold;
+		margin-left: 5%;
+		line-height: 5vw;
+	}
+	
+	main aside.tab-button {
+		position: relative;
+		display: inline-block;
+		top: 0.2%;
+		left: 2%;
+		width: 20%;
+		height: 0;
+		color: black;
+		border-bottom: 5vw solid grey;
+		border-left: 0.8vw solid transparent;
+		border-right: 0.8vw solid transparent;
+		text-align: center;
+		font-weight: bold;
+		z-index: 4;
+		font-size: 2.5vw;
+		line-height: 5vw;
+	}
+	
+	
+	main aside.tab-front {
+		border-bottom: 5vw solid white;
+	}
+	
+	main div.tab-area {
+		position: absolute;
+		display: none;
+		border: 2px solid white;
+		top: 4%;
+		left: 1%;
+		height: 89%;
+		width: 94%;
+		margin: 1%;
+		overflow-x: auto;
+		z-index: 5;
+		background-color: rgba(255,255,255,0.5);
+		box-shadow: 0 0 10px grey inset;
+	}
+	
+	main div.tab-show {
+		display: block;
+	}
+	
+	main div.tab-area img.graphic-img {
+		position: relative;
+		display: inline-block;
+		max-height: 20%;
+		max-width: 60%;
+		margin: 0.5%;
+		background-color: black;
+		border: 2px solid white;
+		box-shadow: 0 0 10px white;
+		padding: 1%;
+	}
+}
+
+/* Tablet (landscape) */
+@media screen and (min-width:740px) and (max-width:1024px) and (orientation:landscape){
+	blockquote {
+		padding: 0% 1% 2% 1%;
+		margin-top: -1%;
+		font-size: 1.2vw;
+		font-style: italic;
+	}
+	
+	div.inset {
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		margin: auto;
+		width: 95%;
+		height: 95%;
+		z-index: 3;
+		line-height: 1.4vw;
+	}
+	
+	main aside.holder a.visit-overlay {
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		margin: auto;
+		width: 100%;
+		height: 100%;
+		z-index: 5;
+	}
+	
+	main aside.holder a.web-link {
+		width: 100%;
+		height: 100%;
+		z-index: 4;
+	}
+	
+	main aside.holder a.web-link img.website-logos {
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		margin: auto;
+		height: 80%;
+		width: auto;
+	}
+	
+	main aside.holder div.placeholder {
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		margin: auto;
+		width: 50%;
+		height: 10%;
+		text-align: center;
+		font-size: 1.5vw;
+		color: white;
+		z-index: 5;
+	}
+	
+	main aside.holder img.game-logos {
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		margin: auto;
+		height: auto;
+		width: 95%;
+		z-index: 4;
+	}
+	
+	main aside.doc-tab-button {
+		position: relative;
+		display: inline-block;
+		top: 5%;
+		left: 2%;
+		width: 22%;
+		height: 0;
+		color: black;
+		border-bottom: 1.9vw solid grey;
+		border-left: 0.8vw solid transparent;
+		border-right: 0.8vw solid transparent;
+		font-size: 1.2vw;
+		line-height: 150%;
+		text-align: center;
+		font-weight: bold;
+		z-index: 4;
+	}
+	
+	main div.doc-tab-area {
+		position: absolute;
+		display: none;
+		border-top: 2px solid white;
+		top: 16%;
+		left: 1%;
+		height: 82%;
+		width: 100%;
+		margin: 1%;
+		overflow-x: auto;
+		z-index: 5;
+		background-color: white;
+	}
+	
+	main div.doc-tab-area a.document-link  {
+		display: block;
+		font-size: 1.2vw;
+		font-weight: bold;
+		margin-left: 5%;
+		line-height: 1.8vw;
+	}
+	
+	main aside.tab-button {
+		position: relative;
+		display: inline-block;
+		top: 2.5%;
+		left: 2%;
+		width: 10%;
+		height: 0;
+		color: black;
+		border-bottom: 1.9vw solid grey;
+		border-left: 0.8vw solid transparent;
+		border-right: 0.8vw solid transparent;
+		text-align: center;
+		font-weight: bold;
+		z-index: 4;
+	}
+	
+	main aside.tab-front {
+		border-bottom: 1.9vw solid white;
+	}
+	
+	main div.tab-area {
+		position: absolute;
+		display: none;
+		border: 2px solid white;
+		top: 4%;
+		left: 1%;
+		height: 89%;
+		width: 96%;
+		margin: 1%;
+		overflow-x: auto;
+		z-index: 5;
+		background-color: rgba(255,255,255,0.5);
+		box-shadow: 0 0 10px grey inset;
+	}
+	
+	main div.tab-show {
+		display: block;
+	}
+	
+	main div.tab-area img.graphic-img {
+		position: relative;
+		display: inline-block;
+		height: 20%;
+		width: auto;
+		margin: 0.5%;
+		background-color: black;
+		border: 2px solid white;
+		box-shadow: 0 0 10px white;
+		padding: 1%;
+	}
+}
+
+/* Standard */
+@media screen and (min-width:1025px) and (max-width:1920px) and (orientation:landscape){
+	blockquote {
+		padding: 0% 1% 2% 1%;
+		margin-top: -1%;
+		font-size: 1vw;
+		font-style: italic;
+	}
+	
+	div.inset {
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		margin: auto;
+		width: 95%;
+		height: 95%;
+		z-index: 3;
+		line-height: 1.2vw;
+	}
+	
+	main aside.holder a.visit-overlay {
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		margin: auto;
+		width: 100%;
+		height: 100%;
+		z-index: 5;
+	}
+	
+	main aside.holder a.web-link {
+		width: 100%;
+		height: 100%;
+		z-index: 4;
+	}
+	
+	main aside.holder a.web-link img.website-logos {
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		margin: auto;
+		height: auto;
+		width: 98%;
+	}
+	
+	main aside.holder div.placeholder {
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		margin: auto;
+		width: 50%;
+		height: 10%;
+		text-align: center;
+		font-size: 1.5vw;
+		color: white;
+		z-index: 5;
+	}
+	
+	main aside.holder img.game-logos {
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		margin: auto;
+		height: auto;
+		width: 95%;
+		z-index: 4;
+	}
+	
+	main aside.doc-tab-button {
+		position: relative;
+		display: inline-block;
+		top: 3%;
+		left: 2%;
+		width: 18%;
+		height: 0;
+		color: black;
+		border-bottom: 1.6vw solid grey;
+		border-left: 0.8vw solid transparent;
+		border-right: 0.8vw solid transparent;
+		font-size: 0.7vw;
+		line-height: 150%;
+		text-align: center;
+		font-weight: bold;
+		z-index: 4;
+	}
+	
+	main div.doc-tab-area {
+		position: absolute;
+		display: none;
+		border-top: 2px solid white;
+		top: 19%;
+		left: 1%;
+		height: 75%;
+		width: 90%;
+		margin: 1%;
+		overflow-x: auto;
+		z-index: 5;
+		background-color: white;
+	}
+	
+	main div.doc-tab-area a.document-link  {
+		display: block;
+		font-size: 0.8vw;
+		font-weight: bold;
+		margin-left: 5%;
+		line-height: 1.5vw;
+	}
+	
+	main aside.doc-tab-button:hover {
+		cursor: pointer;
+	}
+	
+	main aside.tab-button {
+		position: relative;
+		display: inline-block;
+		top: 3%;
+		left: 2%;
+		width: 10%;
+		height: 0;
+		color: black;
+		border-bottom: 1.6vw solid grey;
+		border-left: 0.8vw solid transparent;
+		border-right: 0.8vw solid transparent;
+		text-align: center;
+		font-weight: bold;
+		z-index: 4;
+	}
+	
+	main aside.tab-button:hover {
+		cursor: pointer;
+	}
+	
+	main aside.tab-front {
+		border-bottom: 1.6vw solid white;
+	}
+	
+	main aside.tab-front:hover {
+		cursor: pointer;
+	}
+	
+	main div.tab-area {
+		position: absolute;
+		display: none;
+		border: 2px solid white;
+		top: 4%;
+		left: 1%;
+		height: 89%;
+		width: 96%;
+		margin: 1%;
+		overflow-x: auto;
+		z-index: 5;
+		background-color: rgba(255,255,255,0.5);
+		box-shadow: 0 0 10px grey inset;
+	}
+	
+	main div.tab-show {
+		display: block;
+	}
+	
+	main div.tab-area img.graphic-img {
+		position: relative;
+		display: inline-block;
+		height: 20%;
+		width: auto;
+		margin: 0.5%;
+		background-color: black;
+		border: 2px solid white;
+		box-shadow: 0 0 10px white;
+		padding: 1%;
+	}
+}

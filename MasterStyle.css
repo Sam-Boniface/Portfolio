@@ -1,0 +1,22 @@
+@import "Reset.css";
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import "Structure.css";
+@import "Profile.css";
+@import "Designs.css";
+
+body {
+	height: 100%;
+	width: 100%;
+	background: url("background_landscape.jpg") no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	font-family: 'Montserrat', sans-serif;
+	overflow: hidden;
+}
+
+@font-face {
+	font-family: 'Earth Orbiter';
+    src: url(earthorbiter.ttf);
+}

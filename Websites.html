@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>  </title>
+	<meta charset="UTF-8"/>
+	<meta name="viewport" content="initial-scale=1, viewport-fit=cover"/>
+	<meta name="apple-mobile-web-app-capable" content="yes"/>
+	<link rel="stylesheet" href="CSS/MasterStyle.css"/>
+	<script src="Script/jquery-3.2.1.js"></script>
+	<script src="Script/Tabs.js"></script>
+</head>
+<body>
+	<nav>
+		<a href="Index.html" class="menu-icon-holder">
+			<img class="menu-icon" src="Images/Home-icon.png" alt="Home"/>
+		</a>
+		
+		<a href="Profile.html" class="menu-icon-holder">
+			<img class="menu-icon" src="Images/Profile-icon.png" alt="Home"/>
+		</a>
+		
+		<a href="Websites.html" class="menu-icon-holder">
+			<img class="menu-icon" src="Images/Web-icon.png" alt="Home"/>
+		</a>
+		
+		<a href="Games.html" class="menu-icon-holder">
+			<img class="menu-icon" src="Images/Games-icon.png" alt="Home"/>
+		</a>
+		
+		<a href="Designs.html" class="menu-icon-holder">
+			<img class="menu-icon" src="Images/Game-Design-icon.png" alt="Home"/>
+		</a>
+		
+		<a href="Graphics.html" class="menu-icon-holder">
+			<img class="menu-icon" src="Images/Graphic-icon.png" alt="Home"/>
+		</a>
+		
+		<div id="space"> </div>
+	</nav>
+	
+	<header>
+		<img id="main-title" src="Images/Web-title.png" alt="Sam Boniface"/>
+		
+		<img id="contact-info" src="Images/Contact-info.png" alt="sam.boniface@live.com 07814 254 430"/>
+	</header>
+	
+	<main>
+		<aside class="holder">
+			<a href="http://www.joanneboniface.com" class="web-link" target="_blank">
+				<img class="website-logos" src="Websites/www.joanneboniface.com/Logo.png" alt="Website Logo"/>
+			</a>
+		</aside>
+		
+		<aside class="info">
+			<div class="inset">
+				<h2> Joanne Boniface - Portfolio </h2>
+				<p> The first website I built. <br>
+				This site was designed as an interactive portfolio demonstrating a range of kitchen designs and to give an overview of the client's background.<br>
+				It has a detailed profile section which is used to promote the client's capabilities in the workplace and provides a number of notable achievements as well as a location to download their CV.
+				It also has a number of images based on a variety of ranges that show different projections of a customers' kitchen designs (almost all of which went on to be purchased and installed). </p>
+			</div>
+		</aside>
+		
+		<aside class="docs">
+			<div class="inset">
+				<h2> Documents </h2>
+				<aside id="A1" class="doc-tab-button tab-front" onclick="change1(); showTab1(0)">
+					HTML
+				</aside>
+				
+				<aside id="B1" class="doc-tab-button" onclick="change1(); showTab1(1)">
+					CSS
+				</aside>
+
+				<aside id="C1" class="doc-tab-button" onclick="change1(); showTab1(2)">
+					Scripts
+				</aside>
+				
+				<div id="AA1" class="doc-tab-area tab-show">
+					<a href="Websites/www.joanneboniface.com/HTML/Index.txt" class="document-link" target="_blank"> Index.html </a>
+					<a href="Websites/www.joanneboniface.com/HTML/Profile.txt" class="document-link" target="_blank"> Profile.html </a>
+					<a href="Websites/www.joanneboniface.com/HTML/Kitchens.txt" class="document-link" target="_blank"> Kitchens.html </a>
+					<a href="Websites/www.joanneboniface.com/HTML/Handleless.txt" class="document-link" target="_blank"> Handleless.html </a>
+					<a href="Websites/www.joanneboniface.com/HTML/Premium.txt" class="document-link" target="_blank"> Premium.html </a>
+					<a href="Websites/www.joanneboniface.com/HTML/Shaker.txt" class="document-link" target="_blank"> Shaker.html </a>
+					<a href="Websites/www.joanneboniface.com/HTML/Slab.txt" class="document-link" target="_blank"> Slab.html </a>
+					<a href="Websites/www.joanneboniface.com/HTML/Solid.txt" class="document-link" target="_blank"> Solid.html </a>
+				</div>
+				
+				<div id="BB1" class="doc-tab-area">
+					<a href="Websites/www.joanneboniface.com/CSS/MasterStyle.txt" class="document-link" target="_blank"> MasterStyle.css </a>
+					<a href="Websites/www.joanneboniface.com/CSS/Navigation.txt" class="document-link" target="_blank"> Navigation.css </a>
+					<a href="Websites/www.joanneboniface.com/CSS/Home.txt" class="document-link" target="_blank"> Home.css </a>
+					<a href="Websites/www.joanneboniface.com/CSS/Profile.txt" class="document-link" target="_blank"> Profile.css </a>
+					<a href="Websites/www.joanneboniface.com/CSS/Kitchens.txt" class="document-link" target="_blank"> Kitchens.css </a>
+					<a href="Websites/www.joanneboniface.com/CSS/Ranges.txt" class="document-link" target="_blank"> Ranges.css </a>
+				</div>
+				
+				<div id="CC1" class="doc-tab-area">
+					<a href="Websites/www.joanneboniface.com/Script/MyScript.txt" class="document-link" target="_blank"> MyScript.js </a>
+				</div>
+			</div>
+		</aside>
+	
+		<hr>
+	
+		<aside class="holder">
+			<a href="http://www.samboniface.com/Websites/Escape_from_Mars/index.html" class="web-link" target="_blank">
+				<img class="website-logos" src="Websites/Escape_from_Mars/Logo.png" alt="Website Logo"/>
+			</a>
+		</aside>
+		
+		<aside class="info">
+			<div class="inset">
+				<h2> The Frontier - An Escape the Room Website </h2>
+				<p> The third website I built. <br>
+				This site is built around a fictious company who runs an 'Escape the Room' social experience. <br>
+				The concepts and design of the site are based on an business I am considering starting up in the future. <br>
+				As this site and company are not real, not all functionality is complete. This has been designed to demonstrate futher web design skills.
+			</div>
+		</aside>
+		
+		<aside class="docs">
+			<div class="inset">
+				<h2> Documents </h2>
+				<aside id="A2" class="doc-tab-button tab-front" onclick="change2(); showTab2(0)">
+					HTML
+				</aside>
+				
+				<aside id="B2" class="doc-tab-button" onclick="change2(); showTab2(1)">
+					CSS
+				</aside>
+
+				<aside id="C2" class="doc-tab-button" onclick="change2(); showTab2(2)">
+					Scripts
+				</aside>
+				
+				<div id="AA2" class="doc-tab-area tab-show">
+					<a href="Websites/Escape_from_Mars/HTML/Index.txt" class="document-link" target="_blank"> Index.html </a>
+				</div>
+				
+				<div id="BB2" class="doc-tab-area">
+					<a href="Websites/Escape_from_Mars/CSS/MasterStyle.txt" class="document-link" target="_blank"> MasterStyle.css </a>
+					<a href="Websites/Escape_from_Mars/CSS/Navigation.txt" class="document-link" target="_blank"> Navigation.css </a>
+					<a href="Websites/Escape_from_Mars/CSS/Structure.txt" class="document-link" target="_blank"> Structure.css </a>
+				</div>
+				
+				<div id="CC2" class="doc-tab-area">
+					<a href="Websites/Escape_from_Mars/Script/MyScript.txt" class="document-link" target="_blank"> MyScript.js </a>
+				</div>
+			</div>
+		</aside>
+		
+		<hr>
+		
+		<aside class="holder">
+			<div class="placeholder">
+				Coming Soon
+			</div>
+		</aside>
+	
+		<aside class="info">
+		
+		</aside>
+		
+		<aside class="docs">
+			<div class="inset">
+				<h2> Documents </h2>
+				<aside id="A3" class="doc-tab-button tab-front" onclick="change3(); showTab3(0)">
+					HTML
+				</aside>
+				
+				<aside id="B3" class="doc-tab-button" onclick="change3(); showTab3(1)">
+					CSS
+				</aside>
+
+				<aside id="C3" class="doc-tab-button" onclick="change3(); showTab3(2)">
+					Scripts
+				</aside>
+				
+				<div id="AA3" class="doc-tab-area tab-show">
+					
+				</div>
+				
+				<div id="BB3" class="doc-tab-area">
+					
+				</div>
+				
+				<div id="CC3" class="doc-tab-area">
+					
+				</div>
+			</div>
+		</aside>
+	</main>
+</body>
+</html>
